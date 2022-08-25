@@ -1,0 +1,53 @@
+.hero__title{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 1.2;
+color: #2C2C2C;
+
+}
+.hero__btn--order{
+    width: 100px;
+    height: 32px;
+    background: #BBF330;
+    border-radius: 30px;
+    border: none;
+}
+.hero-select--btn{
+    width: 580px;
+    height: 580px;
+    border-radius: 50%;
+    overflow: hidden;
+
+    background: #FEFEFE;
+    border: 26px solid #FFE550;
+}
+.hero-select__btn-arrov--left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 40px;
+    padding: 0;
+
+}
+.hero-select__btn-arrov--right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 40px;
+    padding: 0;
+ 
+}
+.hero-select__icon--right{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.hero-select__icon--left{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
