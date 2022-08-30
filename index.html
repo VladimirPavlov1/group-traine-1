@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
@@ -13,36 +15,101 @@
     <title>Group-traine</title>
 </head>
 <body>
-    <section class="hero">
+    <section class="hero" id="hero">
         <div class="container">
-            <div class="hero__article">
-                <h1 class="hero__title">
-                    Enjoy Your Favorite Food From Anywhere
-                </h1>
-                <p class="hero-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
-                </p>
-                <button type="button" class="hero__btn--order">
-                    Order Now
-                </button>
+            <div class="hero-box">
+                <div class="hero__article">
+                    <h1 class="hero__title">
+                        Enjoy Your Favorite Food From Anywhere
+                    </h1>
+                    <p class="hero__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
+                    </p>
+                    <button type="button" class="hero__btn--order">
+                        Order Now
+                    </button>
+                </div>
+                <div class="hero__select">
+                    <div class="button-thumb">
+                        <button type="button" class="hero-select--btn">
+                            <div class="swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <img srcset="
+                                        ./images/hero/dish-first@1xtablet.jpg 292w,
+                                        ./images/hero/dish-first@1xdesktop.jpg 528w,
+                                        ./images/hero/dish-first@2xtablet.jpg 584w,
+                                        ./images/hero/dish-first@2xdesktop.jpg 1056w"
+                                                                                            
+                                            sizes="(min-width:1280px) 528px, (min-width:768px) 292px, 100vw "
+                                               
+                                        src="./images/hero/dish-first@1xdesktop.jpg" alt="dish">
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <img srcset="
+                                        ./images/hero/dish-second@1xtablet.jpg 292w,
+                                        ./images/hero/dish-second@1xdesktop.jpg 528w,
+                                        ./images/hero/dish-second@2xtablet.jpg 584w,
+                                        ./images/hero/dish-second@2xdesktop.jpg 1056w"
+                                                                                            
+                                            sizes="(min-width:1280px) 528px, (min-width:768px) 292px, 100vw "
+                                               
+                                        src="./images/hero/dish-second@1xdesktop.jpg" alt="dish"></div>
+                                    <div class="swiper-slide">
+                                        <img  srcset="
+                                        ./images/hero/dish-third@1xtablet.jpg 292w,
+                                        ./images/hero/dish-third@1xdesktop.jpg 528w,
+                                        ./images/hero/dish-third@2xtablet.jpg 584w,
+                                        ./images/hero/dish-third@2xdesktop.jpg 1056w"
+                                                                                            
+                                            sizes="(min-width:1280px) 528px, (min-width:768px) 292px, 100vw "
+                                               
+                                        src="./images/hero/dish-third@1xdesktop.jpg" alt="dish">
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                        <button type="button" class="hero-select__btn-arrow--left swiper-button-prev">
+                            <svg class="hero-select__icon--left">
+                                <use xmlns href="./images/hero/hero.svg#icon-arrow-left"></use>
+                            </svg>
+                        </button>
+                        <button type="button" class="hero-select__btn-arrow--right swiper-button-next">
+                            <svg class="hero-select__icon--right" >
+                                <use xmlns href="./images/hero/hero.svg#icon-arrow-right"></use>
+                            </svg>
+                        </button>
+                    </div>
+                    
+                </div>
             </div>
-            <div class="hero-select">
-                <button type="button" class="hero-select--btn">
-                    <img  src="./hero-images/images/dish-first@1xdesktop.jpg" alt="dish">
-                </button>
-                <button type="button" class="hero-select__btn-arrov--left">
-                    <svg class="hero-select__icon--left" width="48px" height="40px" viewBox="0 0 32 30">
-                        <use xmlns href="./hero-images/icons.svg/symbol-defs.svg#icon-arrow-left"></use>
-                    </svg>
-                </button>
-                <button type="button" class="hero-select__btn-arrov--right">
-                    <svg class="hero-select__icon--right" width="48px" height="40px" viewBox="0 0 48 40">
-                        <use xmlns href="./hero-images/icons.svg/symbol-defs.svg#icon-arrow-right"></use>
-                    </svg>
-                </button>
-            </div>
+            
         </div>
     </section>
+    <section class="offerings">
+        <div class="container">
+            <div class="offerings__wrapper">
+                <div class="offerings__img"></div>
+                <div class="offerings__article">
+                    <h2 class="offerings__title">
+                        
+                    </h2>
+                    <p class="offerings__text">
+
+                    </p>
+                    <ul class="offerings__list">
+                        <li class="offerings__item"><a class="offerings__link" href="#"><p></p></a></li>
+                        <li class="offerings__item"><a class="offerings__link" href="#"><p></p></a></li>
+                    </ul class="offerings">
+                    <button type="button" class="offerings__btn--order"></button>
+                    <button type="button" class="offerings__btn"></button>
+                </div>
+            </div>
+            
+        </div>
+        
+    </section>
+   <script src="./js/slider.js"></script>
     
 </body>
 </html>
