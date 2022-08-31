@@ -4,6 +4,16 @@
   padding: 0 16px;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, h7 {
+  margin: 0;
+}
+
 .hero {
   padding: 16px 0;
 }
@@ -262,6 +272,32 @@
   margin-top: -180px;
 }
 
+.offerings__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.offerings__img {
+  display: block;
+  width: 550px;
+  height: 604px;
+  background-image: url(/offerings-images/marg-border-aple@1xdesktop.jpg), url(/offerings-images/background-fon-section@1xdesktop.jpg), url(/offerings-images/shaddow-aple@1xdesktop.jpg), url(/offerings-images\a ple@1xdesktop.jpg);
+  background-position: center;
+}
+
+.offerings__article {
+  display: block;
+  width: 573px;
+  height: 392px;
+}
+
 .offerings__title {
   font-style: inherit;
   font-weight: 700;
@@ -274,4 +310,41 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+}
+
+.offerings__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.offerings__list-item {
+  display: block;
+}
+
+.offerings__list-link {
+  width: 48px;
+  height: 48px;
+}
+
+.offerings__btn--order {
+  width: 106px;
+  height: 40px;
+  background: #FFFFFF;
+  border: 2px solid #7EB101;
+  border-radius: 30px;
+}
+
+.offerings__btn {
+  display: none;
+}
+
+.site-nav__logo-lin {
+  background-image: url(/offerings-images/logo.svg);
+  display: block;
+  width: 66px;
+  height: 52px;
 }/*# sourceMappingURL=main.css.map */

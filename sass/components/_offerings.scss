@@ -11,9 +11,26 @@
     
 }
         
-.offerings__wrapper{}
-.offerings__img{}
-.offerings__article{}
+.offerings__wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offerings__img{
+    display: block;
+    width: 550px;
+    height: 604px;
+    background-image: url(/offerings-images/marg-border-aple@1xdesktop.jpg),
+     url(/offerings-images/background-fon-section@1xdesktop.jpg),
+      url(/offerings-images/shaddow-aple@1xdesktop.jpg), 
+      url(/offerings-images\aple@1xdesktop.jpg);
+    background-position:center;
+}
+.offerings__article{
+    display: block;
+    width: 573px;
+    height: 392px;
+}
 .offerings__title{
     font-style: inherit;
     font-weight: 700;
@@ -30,11 +47,27 @@
 }
 
  
-.offerings__list
+.offerings__list{
+    display: flex;
+    justify-content: flex-start;
+}
   
-.offerings__item
-.offerings__link
+.offerings__list-item{
+    display: block;
+}
+.offerings__list-link{
+    width: 48px;
+    height: 48px;
+}
 
         
-.offerings__btn--order
-.offerings__btn{}
+.offerings__btn--order{
+    width: 106px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 2px solid #7EB101;
+    border-radius: 30px;
+}
+.offerings__btn{
+    display: none;
+}
