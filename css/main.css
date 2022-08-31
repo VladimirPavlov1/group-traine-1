@@ -10,7 +10,7 @@ ul {
   margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6, h7 {
+h1, h2, h3, h4, h5, h6, p {
   margin: 0;
 }
 
@@ -268,7 +268,7 @@ h1, h2, h3, h4, h5, h6, h7 {
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
-  padding: 320px 0;
+  padding: 110px 0;
   margin-top: -180px;
 }
 
@@ -282,14 +282,17 @@ h1, h2, h3, h4, h5, h6, h7 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  gap: 90px;
 }
 
 .offerings__img {
   display: block;
   width: 550px;
   height: 604px;
-  background-image: url(/offerings-images/marg-border-aple@1xdesktop.jpg), url(/offerings-images/background-fon-section@1xdesktop.jpg), url(/offerings-images/shaddow-aple@1xdesktop.jpg), url(/offerings-images\a ple@1xdesktop.jpg);
-  background-position: center;
+  background-image: url(/offerings-images/aple@1xdesktop.png), url(/offerings-images/shaddow-aple@1xdesktop.png), url(/offerings-images/marg-border-aple@1xdesktop.png), url(/offerings-images/background-aple@1xdesktop.png);
+  background-position: left 84px bottom 125px, left 155px bottom 75px, center, center;
+  background-repeat: no-repeat;
+  background-size: 396px 502px, 252px 87px, 550px 550px, 502px 502px;
 }
 
 .offerings__article {
@@ -304,6 +307,7 @@ h1, h2, h3, h4, h5, h6, h7 {
   font-size: 42px;
   line-height: 1.2;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 .offerings__text {
@@ -326,6 +330,7 @@ h1, h2, h3, h4, h5, h6, h7 {
 }
 
 .offerings__list-link {
+  display: block;
   width: 48px;
   height: 48px;
 }
@@ -342,7 +347,7 @@ h1, h2, h3, h4, h5, h6, h7 {
   display: none;
 }
 
-.site-nav__logo-lin {
+.site-nav__logo-link {
   background-image: url(/offerings-images/logo.svg);
   display: block;
   width: 66px;
