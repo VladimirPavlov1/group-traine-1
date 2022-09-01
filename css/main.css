@@ -12,8 +12,19 @@ ul {
   margin: 0;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, h3, h4, h5, h6 {
   margin: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  padding: 0;
+  list-style: none;
+  border-style: none;
 }
 
 .hero {
@@ -322,6 +333,7 @@ h1, h2, h3, h4, h5, h6, p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  margin-bottom: 40px;
 }
 
 .offerings__list {
@@ -331,6 +343,21 @@ h1, h2, h3, h4, h5, h6, p {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+  gap: 67px;
+  margin-bottom: 32px;
+}
+
+.offerings__list-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.4;
+  margin-bottom: 16px;
+}
+
+.offerings__list-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
 }
 
 .offerings__list-item {
@@ -338,20 +365,48 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .offerings__list-link {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 48px;
   height: 48px;
+  margin-bottom: 8px;
+  border: 1px solid;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  color: #7EB101;
+}
+.offerings__list-link:hover {
+  color: yellow;
+  background-color: #7EB101;
 }
 
-.offerings__btn--order {
+.offerings__list-icon {
+  display: block;
+  fill: currentColor;
+}
+
+.offerings__list-btn {
   width: 106px;
   height: 40px;
   background: #FFFFFF;
   border: 2px solid #7EB101;
   border-radius: 30px;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 1.5;
+}
+.offerings__list-btn--right {
+  display: none;
 }
 
-.offerings__btn {
+.offerings__list-btn--right {
   display: none;
 }
 
