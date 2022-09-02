@@ -91,9 +91,11 @@
     background-color: #BBF330;
     border-radius: 30px;
     border: none;
+    transition: transform;
     transition-duration: 300ms;
     &:hover,&:focus,&:active{
         background-color: #B5FF00;
+        transform: scale(1.5);
     }
 
 }

@@ -30,6 +30,13 @@
     background-position:left 84px bottom 125px,left 155px bottom 75px, center, center;
     background-repeat: no-repeat;
     background-size:396px 502px,252px 87px, 550px 550px, 502px 502px;
+    transition-property: background-size,background-position;
+    transition-duration: 500ms;
+    &:hover{
+        background-size: 456px 552px,262px 97px,560px 560px,512px 512px;
+        background-position:left 44px bottom 95px,left 155px bottom 75px, center, center;
+       
+    }
 }
 .offerings__article{
     display: block;
@@ -74,6 +81,7 @@
   
 .offerings__list-item{
     display: block;
+    transition: transform;
 }
 .offerings__list-link{
     display: flex;
@@ -86,9 +94,11 @@
     border-radius: 50%;
     background-color: #FFFFFF;
     color: #7EB101;
+    transition: transform;
+    transition-duration: 500ms;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
     &:hover{
-       color: yellow; 
-       background-color: #7EB101;
+       transform: scale(1.5);
     }
 }
 .offerings__list-icon{
@@ -105,6 +115,13 @@
     font-weight: 500;
     font-size: 13px;
     line-height: 1.5;
+    transition: transform;
+    transition-duration: 500ms;
+
+    &:hover{
+        border: 2px solid #597D00;
+        transform: scale(1.5);
+    }
     &--right{
         display: none;
     }

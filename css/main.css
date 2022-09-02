@@ -145,11 +145,17 @@ button {
   background-color: #BBF330;
   border-radius: 30px;
   border: none;
+  -webkit-transition: -webkit-transform;
+  transition: -webkit-transform;
+  transition: transform;
+  transition: transform, -webkit-transform;
   -webkit-transition-duration: 300ms;
           transition-duration: 300ms;
 }
 .hero__btn--order:hover, .hero__btn--order:focus, .hero__btn--order:active {
   background-color: #B5FF00;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 
 .button-thumb {
@@ -312,6 +318,14 @@ button {
   background-position: left 84px bottom 125px, left 155px bottom 75px, center, center;
   background-repeat: no-repeat;
   background-size: 396px 502px, 252px 87px, 550px 550px, 502px 502px;
+  -webkit-transition-property: background-size, background-position;
+  transition-property: background-size, background-position;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+}
+.offerings__img:hover {
+  background-size: 456px 552px, 262px 97px, 560px 560px, 512px 512px;
+  background-position: left 44px bottom 95px, left 155px bottom 75px, center, center;
 }
 
 .offerings__article {
@@ -362,6 +376,10 @@ button {
 
 .offerings__list-item {
   display: block;
+  -webkit-transition: -webkit-transform;
+  transition: -webkit-transform;
+  transition: transform;
+  transition: transform, -webkit-transform;
 }
 
 .offerings__list-link {
@@ -381,10 +399,18 @@ button {
   border-radius: 50%;
   background-color: #FFFFFF;
   color: #7EB101;
+  -webkit-transition: -webkit-transform;
+  transition: -webkit-transform;
+  transition: transform;
+  transition: transform, -webkit-transform;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+  -webkit-transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+          transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .offerings__list-link:hover {
-  color: yellow;
-  background-color: #7EB101;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 
 .offerings__list-icon {
@@ -401,6 +427,17 @@ button {
   font-weight: 500;
   font-size: 13px;
   line-height: 1.5;
+  -webkit-transition: -webkit-transform;
+  transition: -webkit-transform;
+  transition: transform;
+  transition: transform, -webkit-transform;
+  -webkit-transition-duration: 500ms;
+          transition-duration: 500ms;
+}
+.offerings__list-btn:hover {
+  border: 2px solid #597D00;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
 }
 .offerings__list-btn--right {
   display: none;
