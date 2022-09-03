@@ -27,6 +27,14 @@ button {
   border-style: none;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .hero {
   padding-top: 60px;
   padding-bottom: 50px;
@@ -452,4 +460,59 @@ button {
   display: block;
   width: 66px;
   height: 52px;
+}
+
+.favorites {
+  padding: 100px 0;
+}
+
+.favorites__title {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.16;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.favorites__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.favorites__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 32px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 40px -16px 0;
+}
+
+.favorites__btn {
+  width: 395px;
+  height: 397px;
+  background: #FEFEFE;
+  border: 16px solid #FFE550;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-transition: -webkit-transform;
+  transition: -webkit-transform;
+  transition: transform;
+  transition: transform, -webkit-transform;
+  -webkit-transition-duration: 6000ms;
+          transition-duration: 6000ms;
+}
+.favorites__btn:hover, .favorites__btn:focus, .favorites__btn:active {
+  border-color: #BBF330;
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
 }/*# sourceMappingURL=main.css.map */
