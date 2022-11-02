@@ -586,7 +586,7 @@ img {
 }
 
 .favorites {
-  padding: 100px 0;
+  padding: 100px 0 60px;
 }
 
 .favorites-wrapper {
@@ -690,6 +690,8 @@ img {
 
 .customers {
   max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 60px 0 150px;
   background-size: 100% 100%;
   margin-bottom: -60px;
@@ -699,12 +701,14 @@ img {
 
 .customers-title {
   font-size: 28px;
-  font-weight: 400;
+  font-weight: 700;
+  margin-bottom: 20px;
 }
 
 .customers-text {
   font-size: 14px;
   font-weight: 400;
+  margin-bottom: 40px;
 }
 
 .customer-list {
@@ -713,4 +717,49 @@ img {
 
 .customer-list-item {
   display: block;
+  width: 280px;
+  height: 247px;
+  background-color: #fff;
+  margin-bottom: 24px;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+.customers-raiting {
+  margin: 0px 8px 28px;
+  padding-top: 8px;
+}
+
+.stars {
+  margin-left: 4 px;
+  background-color: #fff;
+  color: #FFE550;
+}
+
+.stars-icon {
+  fill: #FFE550;
+}
+
+.customer-coment {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.17;
+  padding: 0 8px;
+  margin-bottom: 40px;
+}
+
+.customer-user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  gap: 16px;
+  margin-left: 8px;
+}
+
+.customer-user-name {
+  font-weight: 500;
 }/*# sourceMappingURL=main.css.map */
