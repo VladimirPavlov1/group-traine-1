@@ -19,8 +19,26 @@
     margin-bottom: 40px;
 }
 .subscribe-input{
-    
+    width: 278px;
+    height: 42px;
+    margin-bottom: 20px;
+    border:1px solid #FFE550;
+    border-radius: 30px;
+
+    &::placeholder{
+        font-size: 12px;
+        padding-left: 8px;
+
+    }
 }
 .subscribe-btn{
     display: block;
+    width: 98px;
+    height: 32px;
+    margin-left: auto;
+    border-radius: 30px;
+    background-color: #BBF330;
+    font-size: 13px;
+    font-weight: 500;
+
 }
