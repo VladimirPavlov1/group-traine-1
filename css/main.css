@@ -692,7 +692,7 @@ img {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  padding: 60px 0 150px;
+  padding: 60px 0 40px;
   background-size: 100% 100%;
   margin-bottom: -60px;
   background-image: url("/customers-images/customer-mobile-backfon.png");
@@ -762,4 +762,32 @@ img {
 
 .customer-user-name {
   font-weight: 500;
+}
+
+.subscribe {
+  padding: 20px 0;
+}
+
+.subscribe-img-wrapper {
+  width: 280px;
+  height: 78px;
+  margin-bottom: 17px;
+}
+
+.subscribe-title {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.subscribe-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.17;
+  margin-bottom: 40px;
+}
+
+.subscribe-btn {
+  display: block;
 }/*# sourceMappingURL=main.css.map */
