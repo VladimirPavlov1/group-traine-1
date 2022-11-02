@@ -686,4 +686,31 @@ img {
     height: 397px;
     border: 16px solid #FFE550;
   }
+}
+
+.customers {
+  max-width: 1600px;
+  padding: 60px 0 150px;
+  background-size: 100% 100%;
+  margin-bottom: -60px;
+  background-image: url("/customers-images/customer-mobile-backfon.png");
+  background-repeat: no-repeat;
+}
+
+.customers-title {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.customers-text {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.customer-list {
+  display: block;
+}
+
+.customer-list-item {
+  display: block;
 }/*# sourceMappingURL=main.css.map */
