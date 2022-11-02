@@ -1,9 +1,12 @@
 .container{
-    min-width: 320px;
+    min-width: 280px;
     max-width: 1280px;
-    padding: 0 16px;
+    padding: 0 20px;
     margin-left: auto;
     margin-right: auto;
+    @media(min-width: 768px){
+        padding: 0 16px;
+    }
 }
 ul{
     list-style: none;
