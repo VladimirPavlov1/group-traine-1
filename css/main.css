@@ -357,7 +357,7 @@ img {
     width: 704px;
     height: 394px;
     margin-bottom: 64px;
-    background-image: url("/offerings-images/aple@1xdesktop.png"), url("/offerings-images/shaddow-aple@1xdesktop.png,") url("/offerings-images/marg-border-aple@1xdesktop.png"), url("/offerings-images/background-aple@1xdesktop.png"), url("/offerings-images/center-transparent-aple@1x.png"), url("/offerings-images/right-transparent-aple@1x.png");
+    background-image: url("/offerings-images/aple@1xdesktop.png"), url("/offerings-images/shaddow-aple@1xdesktop.png,"), url("/offerings-images/marg-border-aple@1xdesktop.png"), url("/offerings-images/background-aple@1xdesktop.png"), url("/offerings-images/center-transparent-aple@1x.png"), url("/offerings-images/right-transparent-aple@1x.png");
     background-position: left 54px bottom 80px, left 110px bottom 50px, left 2px center, left 18px center, bottom 80px right 150px, bottom 80px right 2px;
     background-repeat: no-repeat;
     background-size: 257px 325px, 163px 56px, 355px 355px, 325px 325px, 166px 211px, 108px 136px;
