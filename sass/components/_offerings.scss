@@ -6,7 +6,7 @@
     background-repeat: no-repeat;
     padding: 70px 0 60px;
     margin-top: -30px;
-    background-image: url('/offerings-images/background-off-mobile@1x.png');
+    background-image: url('../../offerings-images/background-off-mobile@1x.png');
     @media (min-width:768px){
         background-image: url('/offerings-images/background-tablet.png');
         background-size: 100% 100%;
@@ -33,10 +33,10 @@
     width:280px;
     height: 309px;
     background-image:
-    url('/offerings-images/aple@1xdesktop.png'),
-    url('/offerings-images/shaddow-aple@1xdesktop.png'),
-    url('/offerings-images/marg-border-aple@1xdesktop.png'),
-    url('/offerings-images/background-aple@1xdesktop.png');
+    url('../../offerings-images/aple@1xdesktop.png'),
+    url('../../offerings-images/shaddow-aple@1xdesktop.png'),
+    url('../../offerings-images/marg-border-aple@1xdesktop.png'),
+    url('../../offerings-images/background-aple@1xdesktop.png');
     background-size:200px 255px,128px 44px, 280px 280px, 255px 255px;
     background-position: left 42px bottom 58px,bottom 38px center,center,center;
     background-repeat: no-repeat;
@@ -45,11 +45,11 @@
         height: 394px;
         margin-bottom: 64px;
         background-image:
-            url('/offerings-images/aple@1xdesktop.png'),
-            url('/offerings-images/shaddow-aple@1xdesktop.png'),
-            url('/offerings-images/marg-border-aple@1xdesktop.png'),
-            url('/offerings-images/background-aple@1xdesktop.png'),
-            url('/offerings-images/center-transparent\ aple@1x.png'),
+            url('../../offerings-images/aple@1xdesktop.png'),
+            url('../../offerings-images/shaddow-aple@1xdesktop.png,')
+            url('../../offerings-images/marg-border-aple@1xdesktop.png'),
+            url('../../offerings-images/background-aple@1xdesktop.png'),
+            url('/offerings-images/center-transparent-aple@1x.png'),
             url('/offerings-images/right-transparent-aple@1x.png');
           
         background-position:left 54px bottom 80px,left 110px bottom 50px,left 2px center,left 18px center,bottom 80px right 150px,bottom 80px right 2px;
