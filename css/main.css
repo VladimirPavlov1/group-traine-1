@@ -345,6 +345,8 @@ img {
 
 .offerings__img {
   display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 280px;
   height: 309px;
   background-image: url("../offerings-images/aple@1xdesktop.png"), url("../offerings-images/shaddow-aple@1xdesktop.png"), url("../offerings-images/marg-border-aple@1xdesktop.png"), url("../offerings-images/background-aple@1xdesktop.png");
@@ -394,7 +396,8 @@ img {
   display: block;
   width: 280px;
   height: auto;
-  margin-left: 4px;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media (min-width: 768px) {
   .offerings__article {
