@@ -5,6 +5,10 @@
     width: 280px;
     height: 78px;
     margin-bottom: 17px;
+    @media(min-width:768px){
+        height: 136px;
+        margin-left: auto;
+    }
 }
 .subscribe-title{
     font-size: 28px;
