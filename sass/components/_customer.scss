@@ -9,7 +9,17 @@
     background-repeat: no-repeat;
     @media(min-width:768px){
         background-image: url('../customers-images/tablet-background@1x.png');;
+       
     }
+    @media(min-width:1280px){
+        background-image: url('../customers-images/desktop-background@1x.png');
+        height: 647px;
+        padding: 100px 0 40px;
+    }
+}
+.wrapper-customer-block{
+    display:block;
+    
 }
 .customers-title{
     font-size: 28px;
@@ -18,6 +28,9 @@
     @media(min-width:768px){
         font-size: 42px;
         line-height: 1.17;
+    }
+    @media(min-width:1280px){
+        margin-bottom: 32px;
     }
 }
 .customers-text{
@@ -48,6 +61,11 @@
     @media(min-width:768px){
         width:336px;
     }
+    @media(min-width:1280px){
+        width:501px;
+        height: 227px;
+    }
+
 }
 .customers-raiting{
     margin:0px 8px 28px;
@@ -69,6 +87,9 @@
     line-height: 1.17;
     padding:0 8px;
     margin-bottom: 40px;
+    @media(min-width:1280px){
+        font-size: 18px;
+    }
 }
 .customer-user{
     display: flex;
