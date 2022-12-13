@@ -581,11 +581,55 @@ img {
   margin-left: 3px;
 }
 
+.site-nav__logo {
+  padding: 10px;
+}
+
 .site-nav__logo-link {
   background-image: url(/offerings-images/logo.svg);
   display: block;
   width: 66px;
   height: 52px;
+}
+
+.menu-controls {
+  position: relative;
+}
+
+.site-nav__mobile-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mobile-menu-burger {
+  width: 28px;
+  height: 28px;
+}
+
+.site-nav__list {
+  position: absolute;
+  top: 100%;
+  right: 0;
+}
+
+.site-nav__item {
+  display: block;
+}
+
+.site-nav__link {
+  display: block;
+  width: 130px;
+  height: 51px;
+  padding: 16px;
+  font-size: 16px;
+  text-decoration: none;
 }
 
 .favorites {
